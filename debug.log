@@ -1,0 +1,3 @@
+[0104/155735.078:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files\temp\settings.dat: Accès refusé. (0x5)
+[0104/155735.082:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0104/155735.085:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files\temp\settings.dat: Accès refusé. (0x5)
