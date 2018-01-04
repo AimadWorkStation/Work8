@@ -9,7 +9,7 @@
 
 	try {
 		
-		$con = new PDO($dsn,$huser,$hpass,$option);
+		$con = new PDO($dsn,$user,$pass,$option);
 		$con -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
 	} catch (Exception $e) {

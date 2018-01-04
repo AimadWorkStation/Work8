@@ -9,7 +9,6 @@
 	<title>work08</title>
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<!-- my css codes -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,31 +27,19 @@
 			  <div class="collapse navbar-collapse" id="mainNavButton">
 			    <!-- mr-auto to do margin right auto ml-auto to do it left -->
 			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">About</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Work</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Blog</a>
-			      </li>
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Products</a>
+			        <a class="nav-link" href="#">Products : </a>
 			      </li>
 			    </ul>
 			    <form class="form-inline my-2 my-lg-0" method="post" action="#">
-			      <input class="form-control mr-sm-2" type="text" name="search"	placeholder="Search">
-			      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+			      <input class="form-control mr-sm-2" type="text" id="search"	placeholder="Search" autocomplete="off">
+			      <div id='result'></div>
 			    </form>
-				<div id='result'></div>
+				
 			  </div>
 		  </div>
 		</nav>
-
+		
 	</div>
 	
 	
